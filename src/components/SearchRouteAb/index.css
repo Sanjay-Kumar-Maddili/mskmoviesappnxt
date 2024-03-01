@@ -1,0 +1,120 @@
+.search-bg-containerab {
+  background-color: #131313;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.search-list-containerab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 32px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-list-containerab {
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.search-loader-containerab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #131313;
+}
+
+.no-result-view-containerab {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.no-result-imageab {
+  width: 210px;
+  height: 176px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-result-imageab {
+    width: 450px;
+    height: 378px;
+  }
+}
+
+.no-result-textab {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 296px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .no-result-textab {
+    font-size: 24px;
+    line-height: 31px;
+    width: 565px;
+    color: #ffffff;
+  }
+}
+
+.failure-imageab {
+  width: 233px;
+  height: 172px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-imageab {
+    width: 375px;
+    height: 276px;
+  }
+}
+
+.failure-textab {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-textab {
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+
+.retry-buttonab {
+  width: 107px;
+  height: 40px;
+  font-size: 14px;
+  color: #171f46;
+  background-color: #ffffff;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .retry-buttonab {
+    width: 110px;
+    height: 48px;
+  }
+}

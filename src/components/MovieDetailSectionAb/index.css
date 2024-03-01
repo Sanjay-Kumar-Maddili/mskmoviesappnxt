@@ -1,0 +1,129 @@
+.movie-detail-bg-containerab {
+  height: 110vh;
+  background-color: #131313;
+}
+.detail-titleab {
+  position: absolute;
+  left: 11.39%;
+  right: 73.4%;
+  top: 13.55%;
+  bottom: 81.79%;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 63px;
+  color: #ffffff;
+}
+.time-year-containerab {
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .time-year-containerab {
+    font-size: 20px;
+  }
+}
+.year-timeab {
+  margin-right: 20px;
+}
+.censor-criteriaab {
+  margin-right: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.movie-detail-flex-containerab {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.movie-content-detailsab {
+  width: 33%;
+}
+@media screen and (min-width: 768px) {
+  .movie-content-detailsab {
+    width: 25%;
+    padding: 30px;
+  }
+}
+.movie-content-titleab {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Roboto';
+  line-height: 16px;
+  color: #94a3b8;
+}
+@media screen and (min-width: 768px) {
+  .movie-content-titleab {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+.movie-content-description-containerab {
+  list-style-type: none;
+  color: #ffffff;
+  padding: 0px;
+  font-family: 'Roboto';
+  line-height: 24px;
+}
+.movie-content-descriptionab {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .movie-content-descriptionab {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.movie-content-textab {
+  color: #ffffff;
+  margin-left: 0px;
+}
+.more-movies-titleab {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  margin-left: 10%;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .more-movies-titleab {
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 50px;
+    color: #131313;
+  }
+}
+.more-movies-containerab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.movie-detail-loader-containerab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #131313;
+}

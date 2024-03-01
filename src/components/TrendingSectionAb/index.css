@@ -1,0 +1,15 @@
+.loader-containerab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #131313;
+}
+
+.failure-viewab {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

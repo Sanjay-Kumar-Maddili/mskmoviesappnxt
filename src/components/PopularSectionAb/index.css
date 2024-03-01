@@ -1,0 +1,32 @@
+.popular-bg-containerab {
+  background-color: #131313;
+}
+
+.popular-item-list-containerab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-item-list-containerab {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.popular-loader-containerab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #131313;
+}

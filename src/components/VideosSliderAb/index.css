@@ -1,0 +1,33 @@
+.thumbnailab {
+  height: 120px;
+  width: 70px;
+  border-radius: 10px;
+  padding: 6px;
+  outline: 2px solid #fff;
+}
+
+.thumbnailab:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnailab {
+    height: 360px;
+    width: 236px;
+    border-radius: 14px;
+    outline: 2px solid #fff;
+    margin: 10px;
+  }
+
+  .thumbnailab:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+  }
+}

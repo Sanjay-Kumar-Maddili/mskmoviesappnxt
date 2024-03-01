@@ -1,0 +1,162 @@
+.login-form-bg-containerab {
+  min-height: 100vh;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-bg-containerab {
+    background-image: url('https://res.cloudinary.com/dc2b69ycq/image/upload/v1669698542/Movies%20App/netfilx_bg_vhdeeq.png');
+    background-size: cover;
+    padding-top: 48px;
+  }
+}
+
+.website-logo-image-containerab {
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo-image-containerab {
+    display: block;
+    margin-left: 130px;
+    margin-bottom: 30px;
+  }
+}
+
+.website-logoab {
+  width: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logoab {
+    width: 170px;
+  }
+}
+
+.login-form-containerab {
+  background-color: inherit;
+  width: 100%;
+  align-self: center;
+  margin-top: 60px;
+  border-radius: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-containerab {
+    height: 440px;
+    width: 456px;
+    padding: 48px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+    background: #0c0b10;
+    opacity: 0.8;
+    outline: 2px solid #fff;
+  }
+}
+
+.login-titleab {
+  height: 40px;
+  width: 78px;
+  left: 681px;
+  top: 356px;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.labelab {
+  font-size: 13px;
+  left: 0px;
+  top: 0px;
+  color: #ffffff;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .labelab {
+    font-size: 14px;
+  }
+}
+
+.input-fieldab {
+  height: 40px;
+  width: 100%;
+  border-radius: 2px;
+  margin-bottom: 22px;
+  margin-top: 10px;
+  background: #333333;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  outline: none;
+  color: #e2e8f0;
+  outline: 1px solid rgb(212, 211, 211);
+}
+
+@media screen and (min-width: 768px) {
+  .input-fieldab {
+    width: 360px;
+  }
+}
+
+.login-btnab {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .login-btnab {
+    display: block;
+    height: 40px;
+    width: 360px;
+    border-radius: 8px;
+    background: #e50914;
+    color: #ffffff;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.sign-in-btnab {
+  display: block;
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  background: #e50914;
+  color: #ffffff;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .sign-in-btnab {
+    display: none;
+  }
+}
+
+.error-msgab {
+  font-size: 14px;
+  color: #dc2626;
+  align-self: flex-start;
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .error-msgab {
+    font-size: 16px;
+  }
+}
